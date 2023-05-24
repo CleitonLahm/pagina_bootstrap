@@ -9,33 +9,93 @@
 </head>
 <body>
   
-  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <header class="container mb-3">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="1.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="2.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item">
+          <img src="3.jpg" class="d-block w-100" alt="">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+      </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="1.jpg" class="d-block w-100" alt="">
-      </div>
-      <div class="carousel-item">
-        <img src="2.jpg" class="d-block w-100" alt="">
-      </div>
-      <div class="carousel-item">
-        <img src="3.jpg" class="d-block w-100" alt="">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Próximo</span>
-    </button>
-  </div>
+  </header>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card mb-3">
+          <img src="js.png" class="card-img-top" alt="Imagem 1">
+          <div class="card-body">
+            <h5 class="card-title">Javascript</h5>
+            <p class="card-text">JavaScript é uma linguagem de programação amplamente utilizada para o desenvolvimento web. Ela permite adicionar interatividade, animações e manipulação de elementos HTML em sites e aplicações. JavaScript é suportado por todos os navegadores modernos e possui uma sintaxe flexível. Além de ser a base de muitos frameworks e bibliotecas populares, como AngularJS, React e Vue.js. Essa tecnologia também está se expandindo para outras áreas, como desenvolvimento de aplicativos móveis e Internet das Coisas (IoT). JavaScript é uma linguagem de programação versátil, essencial para o desenvolvimento web atual.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card mb-3">
+          <img src="react.jpg" class="card-img-top" alt="Imagem 2">
+          <div class="card-body">
+            <h5 class="card-title">React</h5>
+            <p class="card-text">React é uma biblioteca de JavaScript de código aberto, criada pelo Facebook, utilizada para o desenvolvimento de interfaces de usuário (UI). Ela permite a construção de componentes reutilizáveis e sua atualização eficiente em resposta a mudanças de estado. O React utiliza uma abordagem baseada em componentes, facilitando a criação de interfaces complexas e escaláveis. Com o uso do React, é possível criar aplicações web interativas e responsivas, bem como aplicações móveis nativas por meio do React Native. A comunidade em torno do React é robusta, fornecendo suporte, ferramentas e bibliotecas adicionais para aprimorar o desenvolvimento. React é amplamente adotado e considerado uma das principais tecnologias para construir interfaces modernas e performáticas.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card mb-3">
+          <img src="bootstrap.jpg" class="card-img-top" alt="Imagem 3">
+          <div class="card-body">
+            <h5 class="card-title">Bootstrap</h5>
+            <p class="card-text">Bootstrap é um framework de código aberto, desenvolvido pelo Twitter, que facilita a criação de interfaces web responsivas e estilizadas. Ele oferece uma coleção de estilos CSS pré-definidos, componentes reutilizáveis e scripts JavaScript para agilizar o processo de desenvolvimento. Com o Bootstrap, é possível criar layouts flexíveis e adaptáveis a diferentes dispositivos, como desktops, tablets e smartphones. O framework também possui uma extensa documentação e uma comunidade ativa, o que facilita a aprendizagem e suporte. Bootstrap é amplamente utilizado e permite construir rapidamente sites e aplicações com uma aparência profissional e consistente.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card mb-3">
+          <img src="node.png" class="card-img-top" alt="Imagem 4">
+          <div class="card-body">
+            <h5 class="card-title">Node</h5>
+            <p class="card-text">Node.js é uma plataforma de desenvolvimento de aplicações em JavaScript, baseada no motor V8 do Google Chrome. Ele permite a execução de código JavaScript no lado do servidor, proporcionando um ambiente de execução rápido e escalável. Node.js é conhecido por sua arquitetura orientada a eventos e não bloqueante, o que o torna adequado para aplicações em tempo real e de alta performance. Além disso, o Node.js possui um vasto ecossistema de pacotes e módulos disponíveis através do gerenciador de pacotes npm. Com Node.js, é possível desenvolver aplicações web, APIs, serviços de backend e até mesmo aplicações desktop.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card mb-3">
+          <img src="python.jpg" class="card-img-top" alt="Imagem 5">
+          <div class="card-body">
+            <h5 class="card-title">Python</h5>
+            <p class="card-text">Python é uma linguagem de programação de alto nível, interpretada e de propósito geral. Conhecida por sua simplicidade e legibilidade, Python é amplamente utilizada para o desenvolvimento web, científico, análise de dados e automação de tarefas. Com uma sintaxe clara e expressiva, Python permite o desenvolvimento rápido de aplicações e possui uma vasta biblioteca padrão, oferecendo uma ampla gama de funcionalidades. Além disso, a comunidade Python é muito ativa, fornecendo uma variedade de bibliotecas e frameworks poderosos, como Django e Flask, para facilitar o desenvolvimento de projetos complexos. Python é uma escolha popular tanto para iniciantes quanto para desenvolvedores experientes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card mb-3">
+          <img src="jquery.png" class="card-img-top" alt="Imagem 6">
+          <div class="card-body">
+            <h5 class="card-title">JQuery</h5>
+            <p class="card-text">jQuery é uma biblioteca de JavaScript de código aberto, projetada para simplificar a manipulação e interação com elementos HTML, além de facilitar a criação de animações e efeitos visuais. Com uma sintaxe concisa e intuitiva, o jQuery permite o acesso rápido e fácil aos elementos da página, a manipulação de eventos e a realização de requisições assíncronas ao servidor. Ele foi desenvolvido para funcionar de forma consistente em diferentes navegadores, ajudando a superar as inconsistências e complexidades do JavaScript puro. O jQuery é amplamente adotado e possui uma grande comunidade, oferecendo uma vasta quantidade de plugins e recursos adicionais para enriquecer o desenvolvimento web.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
